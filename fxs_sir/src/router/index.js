@@ -10,6 +10,13 @@ const routes = [
     name: 'Home',
     component: Home
   },
+
+  {
+    path:'/lx',
+    name:'lx',
+    component: () => import('../components/lx.vue')
+  },
+
   {
     path: '/about',
     name: 'About',
